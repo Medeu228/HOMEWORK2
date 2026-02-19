@@ -38,6 +38,6 @@ public class Main {
                 equipmentFactory.createArmor()
         );
 
-        character.showInfo();
+            character.showInfo();
     }
 }
