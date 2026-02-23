@@ -20,7 +20,6 @@ public abstract class EnemyBuilder {
 
     protected abstract void setBaseStats();
 
-    // ===== Factory Method внутри Builder =====
     public Enemy build() {
 
         setBaseStats();
